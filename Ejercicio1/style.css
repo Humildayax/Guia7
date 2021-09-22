@@ -1,0 +1,111 @@
+body{
+  color: #111;
+  font-family: sans-serif;
+  background: #fff;
+  font-size: 120%;
+}
+
+.todo{
+  padding: 0px 40px;
+}
+
+header{
+  margin: auto;
+  border-bottom: 1px solid #111;
+  margin: -10px -8px 0px -10px;
+  padding: 0px 40px;
+  background-image: url(img/fondo.png);
+  color: #fff;
+}
+
+.titulo{
+  padding-top: 0.5px;
+}
+
+.imgTitulo img{
+  padding-top: 0.5px;
+  float: right;
+  height: auto;
+  width: 150px;
+}
+
+.css{
+  display: flex;
+}
+
+.css img{
+  float: right;
+  width: 120px;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  box-sizing: border-box;
+  border: 1px solid #111;
+}
+
+.html, .js, .xml, .vb, .ajax, .json, .jquery{
+  display: flex;
+}
+
+.html img, .js img, .xml img, .vb img, .ajax img, .json img, .jquery img{
+  float: right;
+  width: 120px;
+  height: auto;
+  padding: 10px;
+  margin: 25px;
+  border: 1px solid #111;
+}
+
+h1{
+  font-size: 200%;
+  padding: 10px 0px 10px 0px;
+}
+
+#titulo{
+  text-align: justify;
+}
+
+.textos p{
+  padding-left: 20px;
+  text-align: justify;
+}
+
+h2, .textos h4{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.listaHtml{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  font-size: 80%;
+  text-align: right;
+  margin: auto;
+  border-top: 1px solid #111;
+  margin: 50px -8px -10px -10px;
+  padding: 15px 40px;
+  background-image: url(img/fondo.png);
+  color: #fff;
+}
+
+footer .contacto{
+  float: left;
+  text-align: left;
+}
+
+footer a:hover{
+  color: #636dc7;
+}
+
+footer p{
+  margin-top: 0;
+}
+
+footer a{
+  transition: color 0.5s ease;
+  color: #fff;
+  text-decoration: none;
+}
